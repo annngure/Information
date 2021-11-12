@@ -1,0 +1,43 @@
+body {
+  background-color: ghostwhite;
+  color: darkgreen;
+  margin: 0;
+}
+img {
+  flex:auto;
+}
+.me,
+.about {
+  /* padding-left:10px ; */
+  margin: 5px auto;
+  text-align: center;
+}
+h1,
+h2,
+h3,
+h4 {
+    margin-bottom: 0;
+  padding-left: 35px;
+  text-align: center;
+  color: brown;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.projects {
+  /* padding-left:10px ; */
+  margin: auto;
+  text-align: center;
+  background-color: skyblue;
+  margin: 0;
+}
+
+.hobbies {
+  margin: 0 10%;
+  /* align-items: center;
+  justify-content: center; */
+  text-align: center;
+}
+
+.hobbies ol {
+  display: inline-block;
+}
