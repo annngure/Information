@@ -6,35 +6,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Birthday</title>
-    <link   rel = "stylesheet" href="/static/style.css" >
-    <script src="/operations.js"></script> 
+    <link rel="stylesheet" href="/static/style.css">
+    <script src="/operations.js"></script>
 </head>
 
 <body>
-    <div class ="information">
-        <h1>Personal  Information.</h1>
+    <form class="form-information">
+    <div class="information">
+            <h1>Personal Information.</h1>
             <div class="gender">
                 <p>Enter your gender</p>
                 <lable for="gender">Choose gender:</lable>
                 <select name="gender" id="gender"> <br>
                     <option value="male">Male</option>
-                    <option value ="female">Female</option>
-                   </select>
+                    <option value="female">Female</option>
+                </select>
             </div>
-    </div>
-                   <br>
-    
-            <br>
-    <div class="date">
-         <lable >Choose birthday date:</lable>
-        <input type="date" name="bday">
-         </div>
+        </div>
+        <br>
 
-    <div class ="button">
-            <button>Submit</button>
-                 
-    </div>
-    
+        <br>
+        <div class="date">
+            <lable>Choose birthday date:</lable>
+            <input type="date" name="bday">
+            <p class= "date error"></p>
+        </div>
+
+        <div class="button">
+            <button type="button" onclick="fn()" class ="output">Submit</button>
+
+        </div>
+</form>
 
 
 

@@ -1,3 +1,7 @@
+function fn() {
+ var d = new Date();
+ var date = parseInt(document.getElementByclass("date").value);
+
 const male=["Kwasi", "Kwadwo" ,"Kwabena" ,"Kwaku" ,"Yaw" ,"Kofi" ,"Kwame"]
    console.log( male);
 
@@ -61,4 +65,5 @@ const male=["Kwasi", "Kwadwo" ,"Kwabena" ,"Kwaku" ,"Yaw" ,"Kofi" ,"Kwame"]
     }
      }
 
-    }
+ }
+}
