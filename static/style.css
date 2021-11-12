@@ -1,0 +1,20 @@
+.information >h1{
+   text-align: center;
+
+}
+.information{
+   text-align: center;
+   padding-bottom: 50px;
+}
+.gender{
+   padding-top: 30px;
+}
+.input{
+   text-align: center;
+   
+}
+input[type]{
+   padding:10px;
+   margin :30px 0;
+}
+
