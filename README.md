@@ -9,7 +9,7 @@ This is about the codes that i have done and more that i will do ,the site built
 
 ## Setup/Installation Requirements
 
-* Clone the repo :{git clone https://github.com/annngure/Information.git}
+* Clone the repo :{git clone https://github.com/annngure/Information}
 
 * No server or dependencies needed to run the code.
 
