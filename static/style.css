@@ -1,3 +1,9 @@
+* {
+   text-align: center;
+}
+
+
+
 .information >h1{
    text-align: center;
 
@@ -17,4 +23,8 @@ input[type]{
    padding:10px;
    margin :30px 0;
 }
+.date{
+   text-align:center;
+}
+
 
