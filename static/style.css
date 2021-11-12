@@ -1,10 +1,25 @@
 * {
    text-align: center;
 }
+  
 .form-information{
    border-width: 1px;
    border-style: solid;
    position:relative;
+   margin:100px;
+   background: linear-gradient(45deg, rgb(247, 135, 135), blue);
 }
-
+.form-information >p {
+   text-align: center;
+  
+}
+.gender {
+  padding-bottom: 30px;
+}
+.gender>p{
+   padding-top: 30px;
+}
+.day, .month ,.year{
+   border-color: brown;
+}
 

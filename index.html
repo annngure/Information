@@ -5,41 +5,44 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Birthday</title>
+    <title>Naming System</title>
     <link rel="stylesheet" href="/static/style.css">
     <script src="/operations.js"></script>
 </head>
 
 <body>
     <form class="form-information">
-    <div class="information">
-            <h1>Personal Information.</h1>
-            <div class="gender">
-                <p>Enter your gender</p>
-                <lable for="gender">Choose gender:</lable>
-                <select name="gender"> <br>
-                    <option value="male" id ="male">Male</option>
-                    <option value="female" id ="female">Female</option>
-                </select>
-            </div>
+        <h1>Personal Information.</h1>
+        <p>Akan names are derived from Ghanian culture. </p>
+        <p>In Ghana, children are given their first name as a 'day name' <br>which corresponds to the day in the week they were born.</p>
+       <p>This application will help you to identify your 'day name'</p>
+        <div class="gender">
+            <p>Enter your gender</p>
+            <lable for="gender">Choose gender:</lable>
+            <select name="gender"> <br>
+                <option value="male" id="male">Male</option>
+                <option value="female" id="female">Female</option>
+            </select>
         </div>
-        <br>
+        <div class="dates">
+            <label>Day</label>
+            <input type="text" class="day">
+            <p class="dayerror"></p>
 
-        <br>
-        <div class="date">
-            <lable>Choose birthday date:</lable>
-            <input type="date" name="bday">
-            <p class= "date error"></p>
+            <label>Month</label>
+            <input type="text" class="month">
+            <p class="montherror"></p>
+
+            <label>Year</label>
+            <input type="text" class="year">
+            <p class="yearerror"></p>
         </div>
 
         <div class="button">
-            <button type="button" onclick="fn()" class ="output">Submit</button>
+            <button type="button" oneclick="fn()" class="output">Submit</button>
 
         </div>
-</form>
-
-
-
+    </form>
 </body>
 </header>
 
