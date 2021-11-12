@@ -1,7 +1,39 @@
 function fn() {
  var d = new Date();
- var date = parseInt(document.getElementByclass("date").value);
+ var date = parseInt(document.getElementByclassName("day").value);
+ var month = parseInt(document.getElementByclassName("month").value);
+ var year = parseInt(document.getElementByclassName("year").value);
 
+ if (day<0 || day>31){
+     document.getElementByclass("dayerror").innerHtml ="Enter valid date";
+     return false;
+ } 
+ else if (date==""){
+     document.getElementByclass("dayerror").innerHtml ="Fill in data";
+     return false;
+ }
+ else {
+     d.setDate[date];
+ }
+
+ if (month <0 || day >12){
+     document.getElementsByClassName("montherror").innerHtml="Enter valid month";
+     return false;
+ }
+ else if (month ==""){
+     document.getElementsByClassName("montherror").innerHtml ="Fill in data";
+     return false;
+ }
+  else {
+      d.setMonth(month);
+  }
+  if (month <0){
+      document.getElementsByClassName("yearerror").innerHtml ="Fill in data";
+      return false;
+  }
+  else {
+      d.setYear(year);
+  }
 const male=["Kwasi", "Kwadwo" ,"Kwabena" ,"Kwaku" ,"Yaw" ,"Kofi" ,"Kwame"]
    console.log( male);
 
@@ -10,12 +42,12 @@ const male=["Kwasi", "Kwadwo" ,"Kwabena" ,"Kwaku" ,"Yaw" ,"Kofi" ,"Kwame"]
 
   const days=["Sunday" ,"Monday" ,"Tuesday" ,"Wednesday" ,"Thursday" ,"Friday" ,"Saturday"]
   console.log(days); 
-    
+     
  function getAkan(){
-     const male =document.getElementById('male').checked;
-     const female=document.getElementById('female').checked;
+     const male =document.getElementById('male').select;
+     const female=document.getElementById('female').select ;
      if (male==true &&female==false){
-         if(days==[0]){
+         if(days== [0]){
              alert("your name is "+ male[0])
          }
          else if (days==[1]){
@@ -35,10 +67,9 @@ const male=["Kwasi", "Kwadwo" ,"Kwabena" ,"Kwaku" ,"Yaw" ,"Kofi" ,"Kwame"]
          }
          else if (days==[6]){
              alert("your name is "+ male [6])
-         }
-         else { alert ("invalid")
      }
-     if (female == false){
+    }
+     else if (male==false &&female==true){
         if(days==[0]){
             alert("your name is "+ female[0])
         }
@@ -60,10 +91,9 @@ const male=["Kwasi", "Kwadwo" ,"Kwabena" ,"Kwaku" ,"Yaw" ,"Kofi" ,"Kwame"]
         else if (days==[6]){
             alert("your name is "+ female [6])
         }
-        else { alert ("invalid")
-        }
-    }
+    
      }
 
- }
+    }
+    getAkan();
 }
