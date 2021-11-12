@@ -6,29 +6,59 @@ const male=["Kwasi", "Kwadwo" ,"Kwabena" ,"Kwaku" ,"Yaw" ,"Kofi" ,"Kwame"]
 
   const days=["Sunday" ,"Monday" ,"Tuesday" ,"Wednesday" ,"Thursday" ,"Friday" ,"Saturday"]
   console.log(days); 
+    
+ function getAkan(){
+     const male =document.getElementById('male').checked;
+     const female=document.getElementById('female').checked;
+     if (male==true &&female==false){
+         if(days==[0]){
+             alert("your name is "+ male[0])
+         }
+         else if (days==[1]){
+             alert("your name is" + male[1])
+         }
+         else if (days==[2]){
+             alert("your name is" + male[2])
+         }
+         else if (days==[3]){
+             alert("your name is" + male[3])
+         }
+         else if (days==[4]){
+             alert("your name is " + male[4])
+         }
+         else if(days==[5]){
+             alert("your name is "+ male [5])
+         }
+         else if (days==[6]){
+             alert("your name is "+ male [6])
+         }
+         else { alert ("invalid")
+     }
+     if (female == false){
+        if(days==[0]){
+            alert("your name is "+ female[0])
+        }
+        else if (days==[1]){
+            alert("your name is" + female[1])
+        }
+        else if (days==[2]){
+            alert("your name is" + female[2])
+        }
+        else if (days==[3]){
+            alert("your name is" + female[3])
+        }
+        else if (days==[4]){
+            alert("your name is " + female[4])
+        }
+        else if(days==[5]){
+            alert("your name is "+ female [5])
+        }
+        else if (days==[6]){
+            alert("your name is "+ female [6])
+        }
+        else { alert ("invalid")
+        }
+    }
+     }
 
-    switch (true){
-        case( male[0]= days[0]):
-        Name="Kwasi"
-        break;
-        case(male[1]=days[1]):
-        Name="Kwadwo"
-        break;
-        case(male [2]=days[2]):
-        Name="Kwabena"
-        break;
-        case(male[3]=days[3]):
-        Name="Kwaku"
-        break;
-        case(male[4]=days[4]):
-        Name="Yaw"
-        break;
-        case(male[5]=days[5]):
-        Name="Kofi"
-        break;
-        case (male[6]=days[6]):
-        Name="Kwame"
-        break;
-        default:
-        Name="Invalid"
-    } 
+    }
