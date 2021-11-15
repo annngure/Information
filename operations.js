@@ -1,10 +1,8 @@
 function fn() {
- var d = new Date();
- var date = parseInt(document.getElementByclassName("day").value);
- var month = parseInt(document.getElementByclassName("month").value);
- var year = parseInt(document.getElementByclassName("year").value);
+ var d= new Date ();
 
- if (day<0 || day>31){
+
+ if (days<0 || days>31){
      document.getElementByclass("dayerror").innerHtml ="Enter valid date";
      return false;
  } 
@@ -16,7 +14,7 @@ function fn() {
      d.setDate[date];
  }
 
- if (month <0 || day >12){
+ if (month <0 || days >12){
      document.getElementsByClassName("montherror").innerHtml="Enter valid month";
      return false;
  }
