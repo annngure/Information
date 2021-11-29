@@ -14,8 +14,7 @@ This is about the codes that i have done and more that i will do ,the site built
 * No server or dependencies needed to run the code.
 
 ## Live link
-
-https://github.com/annngure/Information
+https://annngure.github.io/Information/
 
 ## Known Bugs
 Execution of javascript
